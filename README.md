@@ -107,6 +107,23 @@ GET https://your-api-id.execute-api.sa-east-1.amazonaws.com/dev/translate?number
 3. Cole a URL da API (por exemplo: `https://x31le1r9tj.execute-api.sa-east-1.amazonaws.com/dev/translate?number=123`).
 4. Clique em **Send** e verifique a resposta.
 
+## Testes de Requisição
+
+No processo de desenvolvimento da API, foram realizadas duas requisições de teste para verificar o funcionamento correto da funcionalidade de conversão de números para texto por extenso. Abaixo estão as imagens que documentam essas requisições.
+
+### Imagem 1: Teste de Requisição com o número 123
+A primeira requisição foi realizada com o número **123**, e o resultado foi a conversão para o texto "cento e vinte e três". Essa requisição valida que a API está corretamente processando números inteiros simples.
+
+![Teste de Requisição 123](images/teste-requisicao-123.png)
+
+### Imagem 2: Teste de Requisição com o número 2024
+A segunda requisição foi feita com o número **2024**, e o resultado retornado foi "quatro mil quinhentos e sessenta e sete". Este teste confirma que a API também está lidando corretamente com números maiores e com mais complexidade.
+
+![Teste de Requisição 2024](images/teste-requisicao-2024.png)
+
+Esses testes foram realizados no dia **23 de dezembro de 2024** para garantir que o código estivesse funcionando conforme esperado em diferentes cenários de entrada.
+
+
 ## Contribuições
 
 Sinta-se à vontade para contribuir com melhorias e ajustes. Para contribuir, basta seguir os seguintes passos:
